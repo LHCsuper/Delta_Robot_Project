@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mujoco>
+<compiler angle="radian" meshdir="assets" autolimits="true"/>
+<option timestep="0.002" gravity="0 0 -9.81" wind="0 0 0" integrator="implicitfast" density="1.225" viscosity="1.8e-5"/>
+<visual>
+<global realtime="1"/>
+<quality shadowsize="16384" numslices="28" offsamples="4"/>
+<headlight diffuse="1 1 1" specular="0.5 0.5 0.5" active="1"/>
+<rgba fog="1 0 0 1" haze="1 1 1 1"/>
+</visual>
+  <asset>
+    <!-- base -->
+    <mesh file="zong_zhuang_pei____base_1__shu_ru_1_1.stl"/>
+    <mesh file="zong_zhuang_pei____base_1__shu_ru_10_1.stl"/>
+    <mesh file="zong_zhuang_pei____base_1__shu_ru_11_1.stl"/>
+    <mesh file="zong_zhuang_pei____base_1__shu_ru_12_1.stl"/>
+    <mesh file="zong_zhuang_pei____base_1__shu_ru_13_1.stl"/>
+    <mesh file="zong_zhuang_pei____base_1__shu_ru_14_1.stl"/>
+    <mesh file="zong_zhuang_pei____base_1__shu_ru_15_1.stl"/>
+    <mesh file="zong_zhuang_pei____base_1__shu_ru_16_1.stl"/>
+    <mesh file="zong_zhuang_pei____base_1__shu_ru_17_1.stl"/>
+    <mesh file="zong_zhuang_pei____base_1__shu_ru_18_1.stl"/>
+    <mesh file="zong_zhuang_pei____base_1__shu_ru_19_1.stl"/>
+    <mesh file="zong_zhuang_pei____base_1__shu_ru_2_1.stl"/>
+    <mesh file="zong_zhuang_pei____base_1__shu_ru_20_1.stl"/>
+    <mesh file="zong_zhuang_pei____base_1__shu_ru_21_1.stl"/>
+    <mesh file="zong_zhuang_pei____base_1__shu_ru_22_1.stl"/>
+    <mesh file="zong_zhuang_pei____base_1__shu_ru_23_1.stl"/>
+    <mesh file="zong_zhuang_pei____base_1__shu_ru_24_1.stl"/>
+    <mesh file="zong_zhuang_pei____base_1__shu_ru_25_1.stl"/>
+    <mesh file="zong_zhuang_pei____base_1__shu_ru_26_1.stl"/>
+    <mesh file="zong_zhuang_pei____base_1__shu_ru_27_1.stl"/>
+    <mesh file="zong_zhuang_pei____base_1__shu_ru_28_1.stl"/>
+    <mesh file="zong_zhuang_pei____base_1__shu_ru_3_1.stl"/>
+    <mesh file="zong_zhuang_pei____base_1__shu_ru_4_1.stl"/>
+    <mesh file="zong_zhuang_pei____base_1__shu_ru_5_1.stl"/>
+    <mesh file="zong_zhuang_pei____base_1__shu_ru_6_1.stl"/>
+    <mesh file="zong_zhuang_pei____base_1__shu_ru_7_1.stl"/>
+    <mesh file="zong_zhuang_pei____base_1__shu_ru_8_1.stl"/>
+    <mesh file="zong_zhuang_pei____base_1__shu_ru_9_1.stl"/>
+    <!-- chain1_link1 -->
+        <mesh file="zong_zhuang_pei____chain1_link1__zong_zhuang_pei__1_b_1.stl"/>
+
+    <!-- chain1_link2_1  -->
+      <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__9_00_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__9_001_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__9_002_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__9_003_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__9_004_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__9_005_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__9_006_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__9_007_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__9_008_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__9_009_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__9_11_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__9_22_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__9_33_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__9_44_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__9_55_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__9_66_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__9_77_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__9_88_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__9_99_1.stl"/>
+    <!-- chain1_link2_2 -->
+     <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__10_00_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__10_001_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__10_002_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__10_003_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__10_004_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__10_005_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__10_006_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__10_007_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__10_008_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__10_009_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__10_11_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__10_22_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__10_33_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__10_44_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__10_55_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__10_66_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__10_77_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__10_88_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__10_99_1.stl"/>
+    <!-- chain1_link2_left -->
+          <mesh file="zong_zhuang_pei____chain1_link2_left__zong_zhuang_pei__1_a_1.stl"/>
+    <!-- chain1_link2_right -->
+        <mesh file="zong_zhuang_pei____chain1_link2_right__zong_zhuang_pei__1_123213_1.stl"/>
+    <!-- chain1_mp_left -->
+        <mesh file="zong_zhuang_pei____chain1_mp_left__zong_zhuang_pei__1_111_1.stl"/>
+    <!-- chain1_mp_right -->
+        <mesh file="zong_zhuang_pei____chain1_mp_right__zong_zhuang_pei__1_555_1.stl"/>
+    <!-- chain2_link1 -->
+        <mesh file="zong_zhuang_pei____chain2_link1__zong_zhuang_pei__1_b_1.stl"/>
+    <!-- chain2_link2_1  -->
+     <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__7_00_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__7_001_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__7_002_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__7_003_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__7_004_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__7_005_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__7_006_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__7_007_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__7_008_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__7_009_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__7_11_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__7_22_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__7_33_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__7_44_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__7_55_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__7_66_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__7_77_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__7_88_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__7_99_1.stl"/>
+    <!-- chain2_link2_2  -->
+        <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__8_00_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__8_001_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__8_002_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__8_003_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__8_004_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__8_005_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__8_006_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__8_007_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__8_008_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__8_009_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__8_11_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__8_22_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__8_33_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__8_44_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__8_55_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__8_66_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__8_77_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__8_88_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__8_99_1.stl"/>
+    <!-- chain2_link2_left -->
+        <mesh file="zong_zhuang_pei____chain2_link2_left__zong_zhuang_pei__1_a_1.stl"/>
+    <!-- chain2_link2_right -->
+        <mesh file="zong_zhuang_pei____chain2_link2_right__zong_zhuang_pei__1_123213_1.stl"/>
+    <!-- chain_mp_left -->
+        <mesh file="zong_zhuang_pei____chain2_mp_left__zong_zhuang_pei__1_777_1.stl"/>
+    <!-- chain_mp_right -->
+        <mesh file="zong_zhuang_pei____chain2_mp_right__zong_zhuang_pei__1_444_1.stl"/>
+    <!-- chain3_link1 -->
+        <mesh file="zong_zhuang_pei____chain3_link1__zong_zhuang_pei__1_b_1.stl"/>
+    <!-- chain3_link2_1 -->
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__11_00_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__11_001_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__11_002_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__11_003_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__11_004_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__11_005_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__11_006_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__11_007_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__11_008_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__11_009_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__11_11_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__11_22_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__11_33_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__11_44_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__11_55_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__11_66_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__11_77_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__11_88_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__11_99_1.stl"/>
+    <!-- chain3_link2_2 -->
+        <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__12_00_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__12_001_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__12_002_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__12_003_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__12_004_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__12_005_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__12_006_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__12_007_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__12_008_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__12_009_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__12_11_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__12_22_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__12_33_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__12_44_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__12_55_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__12_66_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__12_77_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__12_88_1.stl"/>
+    <mesh file="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__12_99_1.stl"/>
+    <!-- chain3_link2_left -->
+        <mesh file="zong_zhuang_pei____chain3_link2_left__zong_zhuang_pei__1_a_1.stl"/>
+    <!-- chain3_link2_right -->
+        <mesh file="zong_zhuang_pei____chain3_link2_right__zong_zhuang_pei__1_123213_1.stl"/>
+    <!-- chain3_mp_left -->
+   <mesh file="zong_zhuang_pei____chain3_mp_left__zong_zhuang_pei__1_666_1.stl"/>
+    <!-- chain3_mp_right -->
+    <mesh file="zong_zhuang_pei____chain3_mp_right__zong_zhuang_pei__1_222_1.stl"/>
+    <!-- movingplatform  -->
+    <mesh file="zong_zhuang_pei____movingplatform__zong_zhuang_pei__1_333_1.stl"/>
+
+
+
+        <texture type="skybox" file="/home/robot/mujoco_WS/Model/assets/asset/desert.png" gridsize="3 4" gridlayout=".U..LFRB.D.."/>
+
+    <texture name="plane" type="2d" builtin="checker" rgb1=".1 .1 .1" rgb2=".9 .9 .9" width="512" height="512" mark="cross" markrgb=".8 .8 .8"/>
+    <material name="plane" reflectance="0.3" texture="plane" texrepeat="1 1" texuniform="true"/>
+    <material name="box" rgba="0 0.5 0 1" emission="0"/>
+  </asset>
+
+  <default>
+  <default class="collision_default">
+  <geom contype="1" conaffinity="1"/>
+  <default class="collision_default_1">
+  <geom contype="2" conaffinity="2"/>
+  </default>
+  </default>
+  </default>
+  
+  
+  
+  
+
+  <worldbody>
+  <geom name="floor" pos="0 0 0" size="10 10 .1" type="plane" material="plane" condim="3" contype="1" conaffinity="1"/>
+  <light directional="true" ambient=".3 .3 .3" pos="30 30 30" dir="0 -2 -1" diffuse=".5 .5 .5" specular=".5 .5 .5"/>
+<!-- base -->
+ <body name="base_body" pos="0 0 2">
+    <geom type="mesh" mesh="zong_zhuang_pei____base_1__shu_ru_1_1" mass="6.1000" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____base_1__shu_ru_10_1" mass="6.1000" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____base_1__shu_ru_11_1" mass="6.1000" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____base_1__shu_ru_12_1" mass="6.1000" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____base_1__shu_ru_13_1" mass="6.1000" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____base_1__shu_ru_14_1" mass="6.1000" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____base_1__shu_ru_15_1" mass="6.1000" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____base_1__shu_ru_16_1" mass="6.1000" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____base_1__shu_ru_17_1" mass="6.1000" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____base_1__shu_ru_18_1" mass="6.1000" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____base_1__shu_ru_19_1" mass="6.1000" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____base_1__shu_ru_2_1" mass="6.1000" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____base_1__shu_ru_20_1" mass="6.1000" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____base_1__shu_ru_21_1" mass="6.1000" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____base_1__shu_ru_22_1" mass="6.1000" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____base_1__shu_ru_23_1" mass="6.1000" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____base_1__shu_ru_24_1" mass="6.1000" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____base_1__shu_ru_25_1" mass="6.1000" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____base_1__shu_ru_26_1" mass="6.1000" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____base_1__shu_ru_27_1" mass="6.1000" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____base_1__shu_ru_28_1" mass="6.1000" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____base_1__shu_ru_3_1" mass="6.1000" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____base_1__shu_ru_4_1" mass="6.1000" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____base_1__shu_ru_5_1" mass="6.1000" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____base_1__shu_ru_6_1" mass="6.1000" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____base_1__shu_ru_7_1" mass="6.1000" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____base_1__shu_ru_8_1" mass="6.1000" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____base_1__shu_ru_9_1" mass="6.1000" class="collision_default"/>
+<!-- chain1 -->
+<body name="chain1_link1_body" pos="-0.22 -0.04 -0.11" >
+    <joint name="J1" type="hinge" pos="0 0 0" axis="0 1 0"  limited="true" range="-1.2 0.8"  damping="0.001"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain1_link1__zong_zhuang_pei__1_b_1" mass="13.03" rgba="1 0 0 1" class="collision_default_1"/>
+  <body name="chain1_link2_1_body" pos="-0.40 0.08 -0.05">
+      <joint name="chain1_link2_1x" type="hinge" pos="0 0 0" axis="1 0 0"/>
+      <joint name="chain1_link2_1y" type="hinge" pos="0 0 0" axis="0 1 0"/>
+      <site name="chain1_link2_1_site" pos="0.56 0.01 -0.75" rgba="0 0 1 0.4" size="0.001"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__9_00_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__9_001_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__9_002_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__9_003_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__9_004_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__9_005_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__9_006_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__9_007_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__9_008_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__9_009_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__9_11_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__9_22_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__9_33_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__9_44_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__9_55_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__9_66_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__9_77_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__9_88_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__9_99_1" mass="0.18" class="collision_default"/>
+  </body>
+  <body name="chain1_link2_2_body" pos="-0.40 -0.01 -0.05">
+      <joint name="chain1_link2_4x" type="hinge" pos="0 0 0" axis="1 0 0"/>
+      <joint name="chain1_link2_4y" type="hinge" pos="0 0 0" axis="0 1 0"/>
+
+      <site name="chain1_link2_2_site" pos="0.56 0.0 -0.75" rgba="0 0 1 0.4" size="0.001"/>
+
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__10_00_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__10_001_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__10_002_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__10_003_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__10_004_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__10_005_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__10_006_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__10_007_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__10_008_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__10_009_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__10_11_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__10_22_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__10_33_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__10_44_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__10_55_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__10_66_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__10_77_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__10_88_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__10_99_1" mass="0.18" class="collision_default"/>
+  </body>
+  <body name="chain1_link2_left_body" pos="-0.40 0.04 -0.05">
+    <geom type="mesh" mesh="zong_zhuang_pei____chain1_link2_left__zong_zhuang_pei__1_a_1" mass="0.01" class="collision_default"/>
+  </body>
+  <body name="chain1_link2_right_body" pos="-0.40 0.03 -0.05">
+    <geom type="mesh" mesh="zong_zhuang_pei____chain1_link2_right__zong_zhuang_pei__1_123213_1" mass="0.01" class="collision_default"/>
+  </body>
+</body>
+<!-- chain2 -->
+<body name="chain2_link1_body" pos="0.14 -0.17 -0.11" quat="0.5 0 0 0.8660254">
+    <joint name="J2" type="hinge" pos="0 0 0 " axis="0 1 0" limited="true" range="-1.2 0.8" damping="0.001"/>       
+    <geom type="mesh" mesh="zong_zhuang_pei____chain2_link1__zong_zhuang_pei__1_b_1" mass="13.03" rgba="0 1 0 1" class="collision_default_1"/>
+  <body name="chain2_link2_1_body" pos="-0.40 0.08 -0.05">
+    <joint name="chain2_link2_1x" type="hinge" pos="0 0 0" axis="1 0 0"/>
+    <joint name="chain2_link2_1y" type="hinge" pos="0 0 0" axis="0 1 0"/>
+
+    <site name="chain2_link2_1_site" pos="0.555 0.01 -0.75" rgba="0 0 1 0.4" size="0.001"/>
+
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__7_00_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__7_001_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__7_002_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__7_003_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__7_004_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__7_005_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__7_006_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__7_007_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__7_008_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__7_009_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__7_11_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__7_22_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__7_33_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__7_44_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__7_55_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__7_66_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__7_77_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__7_88_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__7_99_1" mass="0.18" class="collision_default"/>
+  </body>
+  <body name="chain2_link2_2_body" pos="-0.40 -0.01 -0.05">
+    <joint name="chain2_link2_4x" type="hinge" pos="0 0 0" axis="1 0 0"/>
+    <joint name="chain2_link2_4y" type="hinge" pos="0 0 0" axis="0 1 0"/>
+
+    <site name="chain2_link2_2_site" pos="0.555 -0.005 -0.75" rgba="0 0 1 0.4" size="0.001"/>
+
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__8_00_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__8_001_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__8_002_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__8_003_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__8_004_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__8_005_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__8_006_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__8_007_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__8_008_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__8_009_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__8_11_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__8_22_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__8_33_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__8_44_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__8_55_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__8_66_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__8_77_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__8_88_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__8_99_1" mass="0.18" class="collision_default"/>
+  </body>
+  <body name="chain2_link2_left_body" pos="-0.40 0.04 -0.05">
+    <geom type="mesh" mesh="zong_zhuang_pei____chain2_link2_left__zong_zhuang_pei__1_a_1" mass="0.01" class="collision_default"/>
+  </body>
+  <body name="chain2_link2_right_body" pos="-0.40 0.03 -0.05">
+    <geom type="mesh" mesh="zong_zhuang_pei____chain2_link2_right__zong_zhuang_pei__1_123213_1" mass="0.01" class="collision_default"/>
+  </body>
+</body>
+<!-- chain3-->
+<body name="chain3_link1_body" pos="0.08 0.2 -0.11" quat="-0.5 0 0 0.8660254">
+    <joint name="J3" type="hinge" pos="0 0 0 " axis="0 1 0" limited="true" range="-1.2 0.8" damping="0.001"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain3_link1__zong_zhuang_pei__1_b_1" mass="13.03" rgba="0 0 1 1" class="collision_default_1"/>
+  <body name="chain3_link2_1_body" pos="-0.40 0.08 -0.05">
+    <joint name="chain3_link2_1x" type="hinge" pos="0 0 0" axis="1 0 0"/>
+    <joint name="chain3_link2_1y" type="hinge" pos="0 0 0" axis="0 1 0"/>
+
+    <site name="chain3_link2_1_site" pos="0.55 0.0 -0.75" rgba="0 0 1 0.4" size="0.001"/>
+
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__11_00_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__11_001_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__11_002_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__11_003_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__11_004_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__11_005_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__11_006_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__11_007_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__11_008_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__11_009_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__11_11_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__11_22_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__11_33_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__11_44_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__11_55_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__11_66_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__11_77_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__11_88_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__11_99_1" mass="0.18" class="collision_default"/>
+  </body>
+  <body name="chain3_link2_2_body" pos="-0.40 -0.012 -0.05">
+    <joint name="chain3_link2_4x" type="hinge" pos="0 0 0" axis="1 0 0"/>
+    <joint name="chain3_link2_4y" type="hinge" pos="0 0 0" axis="0 1 0"/>
+
+    <site name="chain3_link2_2_site" pos="0.555 0.0 -0.75" rgba="0 0 1 0.4" size="0.001"/>
+
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__12_00_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__12_001_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__12_002_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__12_003_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__12_004_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__12_005_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__12_006_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__12_007_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__12_008_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__12_009_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__12_11_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__12_22_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__12_33_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__12_44_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__12_55_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__12_66_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__12_77_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__12_88_1" mass="0.001" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain_link2_zi_zhuang_pei_ti__12_99_1" mass="0.18" class="collision_default"/>
+  </body>
+  <body name="chain3_link2_left_body" pos="-0.40 0.04 -0.05">
+    <geom type="mesh" mesh="zong_zhuang_pei____chain2_link2_left__zong_zhuang_pei__1_a_1" mass="0.01" class="collision_default"/>
+  </body>
+  <body name="chain3_link2_right_body" pos="-0.40 0.03 -0.05">
+    <geom type="mesh" mesh="zong_zhuang_pei____chain3_link2_right__zong_zhuang_pei__1_123213_1" mass="0.01" class="collision_default"/>
+  </body>
+</body>
+</body>
+<!-- movingplatform -->
+<body name="movingplatform_body" pos="0 0 1.1">
+    <!-- 沿 X、Y、Z 平移，自由 -->
+    <joint name="px" type="slide" axis="1 0 0"/>
+    <joint name="py" type="slide" axis="0 1 0"/>
+    <joint name="pz" type="slide" axis="0 0 1"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____movingplatform__zong_zhuang_pei__1_333_1" mass="0.266" class="collision_default"/>
+<!-- chain1_mp -->
+  <body name="chain1_mp_left_body" pos="-0.06 0.01 -0.01">
+    <site name="chain1_left_site" pos="0 0.04 0" size="0.01" type="sphere" rgba="1 0 0 0.5"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain1_mp_left__zong_zhuang_pei__1_111_1" mass="0.01" class="collision_default"/>
+  </body>
+  <body name="chain1_mp_right_body" pos="-0.06 -0.01 -0.01">
+    <site name="chain1_right_site" pos="0 -0.04 0" size="0.01" type="sphere" rgba="1 0 0 0.5"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain1_mp_right__zong_zhuang_pei__1_555_1" mass="0.01" class="collision_default"/>
+  </body>
+
+<!-- chain2_mp -->
+  <body name="chain2_mp_left_body" pos="0.02 -0.06 -0.01" quat="0.5 0 0 0.8660254">
+    <site name="chain2_left_site" pos="0 0.04 0" size="0.01" type="sphere" rgba="1 0 0 0.5"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain2_mp_left__zong_zhuang_pei__1_777_1" mass="0.01" class="collision_default"/>
+  </body>
+  <body name="chain2_mp_right_body" pos="0.04 -0.05 -0.01" quat="0.5 0 0 0.8660254">
+    <site name="chain2_right_site" pos="0 -0.04 0" size="0.01" type="sphere" rgba="1 0 0 0.5"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain2_mp_right__zong_zhuang_pei__1_444_1" mass="0.01" class="collision_default"/>
+  </body>
+
+<!-- chain3_mp -->
+  <body name="chain3_mp_left_body" pos="0.04 0.05 -0.01" quat="-0.5 0 0 0.8660254">
+    <site name="chain3_left_site" pos="0 0.04 0" size="0.01" type="sphere" rgba="1 0 0 0.5"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain3_mp_left__zong_zhuang_pei__1_666_1" mass="0.01" class="collision_default"/>
+  </body>
+  <body name="chain3_mp_right_body" pos="0.02 0.06 -0.01" quat="-0.5 0 0 0.8660254">
+    <site name="chain3_right_site" pos="0 -0.04 0" size="0.01" type="sphere" rgba="1 0 0 0.5"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____chain3_mp_right__zong_zhuang_pei__1_222_1" mass="0.01" class="collision_default"/>
+  </body>    
+</body>
+  </worldbody>
+
+  <equality>
+<weld site1="chain1_left_site" site2="chain1_link2_1_site" torquescale="0.1"/>
+<weld site1="chain1_right_site" site2="chain1_link2_2_site" torquescale="0.1"/>
+<weld site1="chain2_left_site" site2="chain2_link2_1_site" torquescale="0.1"/>
+<weld site1="chain2_right_site" site2="chain2_link2_2_site" torquescale="0.1"/>
+<weld site1="chain3_left_site" site2="chain3_link2_1_site" torquescale="0.1"/>
+<weld site1="chain3_right_site" site2="chain3_link2_2_site" torquescale="0.1"/>
+<!--  <weld site1="red_connect" site2="white_connect" torquescale="0"/>  -->
+</equality>
+
+<actuator>
+<position  name="motor1" joint="J1" kp="200000"  kv="1110"         ctrllimited="auto"  ctrlrange="-0.5235987756 1.5707963268" />
+<position name="motor2" joint="J2"  kp="200000"  kv="1110"         ctrllimited="auto"  ctrlrange="-0.5235987756 1.5707963268" />
+<position  name="motor3" joint="J3" kp="200000"  kv="1110"          ctrllimited="auto"  ctrlrange="-0.5235987756 1.5707963268" />
+</actuator>
+</mujoco>
