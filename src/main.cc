@@ -162,9 +162,9 @@ int main(int argc, const char **argv) {
     d->ctrl[1]=fi_array[1];
     d->ctrl[2]=fi_array[2];
     cnt+=0.01;
-
-     mj_step(m, d);
-
+    ik.printBodyPosition(m, d, "movingplatform_body");
+    mj_step(m, d);
+    
 
     //同步时间
     auto current_time = std::chrono::high_resolution_clock::now();

@@ -5,6 +5,7 @@
 //#include <Arduino.h>
 #include <math.h>
 #include <stdio.h>
+#include <mujoco/mujoco.h>
 
 class inverse_kin 
 {
@@ -66,6 +67,7 @@ double P_3[3] = {0, r, z0};
 public:
 
 int calculations(double position_data[3], double fi_array[3]);
+void printBodyPosition(const mjModel* m, const mjData* d, const char* body_name);
 };
 
 #endif

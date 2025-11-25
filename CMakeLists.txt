@@ -13,7 +13,7 @@ endif()
 
 aux_source_directory(${PROJECT_SOURCE_DIR}/src SRC_LIST)
 
-add_executable(basic ${SRC_LIST})
+add_executable(main ${SRC_LIST})
 #从cmake安装位置opt使用
-target_link_libraries(basic mujoco::mujoco GL GLU glfw)
+target_link_libraries(main mujoco::mujoco GL GLU glfw)
 
