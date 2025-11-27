@@ -441,7 +441,7 @@
     <joint name="px" type="slide" axis="1 0 0"/>
     <joint name="py" type="slide" axis="0 1 0"/>
     <joint name="pz" type="slide" axis="0 0 1"/>
-    <geom type="mesh" mesh="zong_zhuang_pei____movingplatform__zong_zhuang_pei__1_333_1" mass="0.266" class="collision_default"/>
+    <geom type="mesh" mesh="zong_zhuang_pei____movingplatform__zong_zhuang_pei__1_333_1"  mass="0.266" class="collision_default"/>
 <!-- chain1_mp -->
   <body name="chain1_mp_left_body" pos="-0.06 0.01 -0.01">
     <site name="chain1_left_site" pos="0 0.04 0" size="0.01" type="sphere" rgba="1 0 0 0.5"/>

@@ -22,7 +22,7 @@
 #include <mujoco/mujoco.h>
 #include <vector>
 #include"inverse_kin.h"
-
+#include"my_pinocchio.h"
 
 // MuJoCo data structures
 mjModel *m = NULL; // MuJoCo model
@@ -107,12 +107,12 @@ void scroll(GLFWwindow *window, double xoffset, double yoffset) {
 
 // main function
 int main(int argc, const char **argv) {
-  
+    
 
 
 
   char error[1000] = "Could not load binary model";
-  m = mj_loadXML("/home/robot/mujoco_WS/Model/delta_robot_V2.xml", 0, error, 1000);
+  m = mj_loadXML("/home/robot/Delta_Robot_Project/Model/delta_robot_V2.xml", 0, error, 1000);
   // make data
   d = mj_makeData(m);
 
@@ -149,20 +149,21 @@ int main(int argc, const char **argv) {
   float cnt = 0;
   double position_data[3]={10*cos(cnt),0,-900};
   double fi_array[3];  
-
   auto step_start = std::chrono::high_resolution_clock::now();
+  
+
   //仿真主体
   while (!glfwWindowShouldClose(window)) {
     //计算IK
-    position_data[0]=100*cos(cnt);
-    position_data[1]=100*sin(cnt);
+    position_data[0]=100*cos(5*cnt);
+    position_data[1]=100*sin(5*cnt);
     position_data[2]=-900;
     ik.calculations(position_data, fi_array);  
     d->ctrl[0]=fi_array[0];
     d->ctrl[1]=fi_array[1];
     d->ctrl[2]=fi_array[2];
     cnt+=0.01;
-    ik.printBodyPosition(m, d, "movingplatform_body");
+    // ik.printBodyPosition(m, d, "movingplatform_body");
     mj_step(m, d);
     
 
